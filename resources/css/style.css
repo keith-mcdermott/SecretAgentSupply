@@ -1,0 +1,112 @@
+/* Universal styles */
+html {
+    font-size: 18px;
+}
+
+body {
+
+  font-family: Helvetica;
+  color: white;
+  width: 100%;
+  border: 1px solid red;
+}
+/* Header */
+header {
+  background-color: black;
+}
+.header_content {
+  margin: 0 auto;
+  width: 960px;
+  border: 1px solid red;
+}
+.logo{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+}
+.logo span {
+  padding: 0.66rem 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+/* New arrival section */
+.new_arrival_container {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height:25rem;
+}
+.new_arrival_banner {
+  position: relative;
+  top:9rem;
+  border: 1px solid red;
+  width: 960px;
+  margin: 0 auto;
+}
+.new_arrival {
+  background-color: black;
+  padding: 2rem 3rem;
+  width: 20rem;
+}
+.new_arrival h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.new_arrival h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+/* Navigation section */
+.nav_bar {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+.nav_container {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_container div {
+  display: inline-block;
+  border: 1px solid blue;
+  flex-grow: 0;
+}
+/* Items section - product feature */
+.items_container {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.item {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.item img {
+  height: 9rem;
+  width: auto;
+  padding: 2rem 2rem;
+  border: 1px solid green;
+}
+.item h3 {
+  padding: 0.5rem 0;
+  background-color: black;
+  text-align: center;
+}
